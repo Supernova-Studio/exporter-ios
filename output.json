@@ -1,0 +1,8 @@
+{
+    "blueprints": [
+        {
+            "invoke": "colors.pr",
+            "write_to": "Styles/ColorExtension.swift"
+        }
+    ]
+}
