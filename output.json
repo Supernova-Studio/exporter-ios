@@ -3,6 +3,10 @@
         {
             "invoke": "colors.pr",
             "write_to": "Styles/ColorExtension.swift"
+        },
+        {
+            "invoke": "typography.pr",
+            "write_to": "Styles/FontExtension.swift"
         }
     ]
 }

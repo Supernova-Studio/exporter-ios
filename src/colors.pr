@@ -10,6 +10,7 @@ extension Color {
         {[ for group in @ds.tokenGroupsOfType("Color") ]}
         // {{ group.name }}
         {[ for token in @ds.tokensByGroupId(group.id)]}
+        {* {[ inject "token_description" context token /]} *}
         {[ if @boolean.not(@compare.empty(token.description)) ]}
         // {{ token.description }}
         {[/]}
