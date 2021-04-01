@@ -9,6 +9,10 @@
             "write_to": "Styles/ColorExtension.swift"
         },
         {
+            "invoke": "gradients.pr",
+            "write_to": "Styles/GradientExtension.swift"
+        },
+        {
             "invoke": "measures.pr",
             "write_to": "Styles/AppMeasures.swift"
         },

@@ -18,7 +18,7 @@ extension Gradient {
         {[/]}
         let {[ inject "token_name" context self /]} = LinearGradient(
             gradient: Gradient(stops: [
-                {[ for stop in value.stops ]}
+                {[ for stop in token.value.stops ]}
                 Gradient.Stop(color: {[ inject "color" context stop.color /]}, location: {{ stop.position }}),
                 {[/]}
             ]),
