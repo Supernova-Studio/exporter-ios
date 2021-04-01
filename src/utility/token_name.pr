@@ -1,5 +1,2 @@
-{[ if @compare.nonnull(originStyle) ]}
-{{ originStyle.name.replacing("/", " ").camelcased(false) }}
-{[ else ]}
-{{ meta.name.replacing("/", " ").camelcased(false) }}
-{[/]}
+{[ const groupName = group.path.join("").suffixed(group.name).camelcased(false) /]}
+{{ groupName }}{{ token.name.camelcased(@boolean.not(@compare.empty(groupName))) }}

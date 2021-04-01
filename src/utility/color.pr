@@ -1,6 +1,1 @@
-{[ const colorValue = value.substring(1, 8) /]}
-{[ const red = colorValue.substring(0, 2) /]}
-{[ const green = colorValue.substring(2, 2) /]}
-{[ const blue = colorValue.substring(4, 2) /]}
-{[ const alpha = colorValue.substring(6, 2) /]}
-Color(.sRGB, red: {{red}}/255 green: {{green}}/255 blue: {{blue}}/255 opacity: {{alpha}}/100)
+Color(.sRGB, red: {{ r }}/255, green: {{ g }}/255, blue: {{ b }}/255, opacity: {{ a.dividedBy(255).rounded(2) }})
