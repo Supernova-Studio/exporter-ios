@@ -1,8 +1,16 @@
 {
     "blueprints": [
         {
+            "invoke": "borders.pr",
+            "write_to": "Styles/BorderExtension.swift"
+        },
+        {
             "invoke": "colors.pr",
             "write_to": "Styles/ColorExtension.swift"
+        },
+        {
+            "invoke": "shadows.pr",
+            "write_to": "Styles/ShadowExtension.swift"
         },
         {
             "invoke": "typography.pr",
