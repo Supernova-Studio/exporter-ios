@@ -4,6 +4,7 @@ import SwiftUI
 extension View {
         
     {[ for group in @ds.tokenGroupsOfType("Border") ]}
+    {[ if @boolean.not(@boolean.and(@compare.empty(group.tokenIds), @compare.empty(group.subgroups))) ]}
     // {{ group.name }}
     {[ for token in @ds.tokensByGroupId(group.id)]}
     {[ if @boolean.not(@compare.empty(token.description)) ]}
@@ -15,5 +16,6 @@ extension View {
 
     {[/]}
 
+    {[/]}
     {[/]}
 }

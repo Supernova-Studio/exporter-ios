@@ -8,6 +8,7 @@ extension Color {
     struct TokenColor {
 
         {[ for group in @ds.tokenGroupsOfType("Color") ]}
+        {[ if @boolean.not(@boolean.and(@compare.empty(group.tokenIds), @compare.empty(group.subgroups))) ]}
         // {{ group.name }}
         {[ for token in @ds.tokensByGroupId(group.id)]}
         {* {[ inject "token_description" context token /]} *}
@@ -17,6 +18,7 @@ extension Color {
         let {[ inject "token_name" context self /]} = {[ inject "color" context token.value /]} 
         {[/]}
 
+        {[/]}
         {[/]}
     }
 }

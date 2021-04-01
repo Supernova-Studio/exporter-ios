@@ -4,6 +4,7 @@ import SwiftUI
 struct AppMeasures {
         
     {[ for group in @ds.tokenGroupsOfType("Measure") ]}
+    {[ if @boolean.not(@boolean.and(@compare.empty(group.tokenIds), @compare.empty(group.subgroups))) ]}
     // {{ group.name }}
     {[ for token in @ds.tokensByGroupId(group.id)]}
     {[ if @boolean.not(@compare.empty(token.description)) ]}
@@ -13,5 +14,6 @@ struct AppMeasures {
 
     {[/]}
 
+    {[/]}
     {[/]}
 }
