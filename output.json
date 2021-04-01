@@ -9,6 +9,14 @@
             "write_to": "Styles/ColorExtension.swift"
         },
         {
+            "invoke": "measures.pr",
+            "write_to": "Styles/AppMeasures.swift"
+        },
+        {
+            "invoke": "radius.pr",
+            "write_to": "Styles/RadiusExtension.swift"
+        },
+        {
             "invoke": "shadows.pr",
             "write_to": "Styles/ShadowExtension.swift"
         },
