@@ -1,10 +1,10 @@
-![Supernova SwiftUI Exporter](./readme-icon.png)
+<img src="./readme-icon.png" alt="Supernova Logo" style="max-width:100%;">
 
 
 [Supernova](https://supernova.io) is a design system platform that allows to seamlessly get your design system data represented as production-ready code. Supernova works with any platform or tech stack, is used by many developers and organizations around the world, and can help you save time doing manual and unneccessary tasks that all developers hate. To learn everything Supernova, please follow our [developer documentation](https://developers.supernova.io/).
 
 
-#SwiftUI Exporter
+# SwiftUI Exporter
 
 
 SwiftUI Exporter allows you to **produce production-ready code for all product styles (such as colors) defined inside your design system** in such format that you can immediately use them to style your application elements. Specifically, this exporter automates the coding of:
@@ -18,11 +18,11 @@ SwiftUI Exporter allows you to **produce production-ready code for all product s
 You can generate all production ready-code either manually using Supernova [VSCode extension](https://marketplace.visualstudio.com/items?itemName=SupernovaIO.pulsar-vsc-extension), or automate the pipeline using Supernova [Design Continuous Delivery](https://supernova.io/automated-code-delivery).
 
 
-##Example Usage
+## Example Usage
 
 Once you have run the exporter against your design system, you can start using the code in your codebase right away. Here are few examples how you can use the output of [SwiftUI] exporter:
 
-###[Example 1]
+### [Example 1]
 
 Todo description
 
@@ -31,7 +31,7 @@ Code
 ```
 
 
-###[Example 2]
+### [Example 2]
 
 Todo description
 
