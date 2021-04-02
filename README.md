@@ -1,4 +1,4 @@
-[Supernova SwiftUI image]
+![Supernova SwiftUI Exporter](./readme-icon.png)
 
 
 [Supernova](https://supernova.io) is a design system platform that allows to seamlessly get your design system data represented as production-ready code. Supernova works with any platform or tech stack, is used by many developers and organizations around the world, and can help you save time doing manual and unneccessary tasks that all developers hate. To learn everything Supernova, please follow our [developer documentation](https://developers.supernova.io/).
