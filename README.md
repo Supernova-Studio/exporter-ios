@@ -7,20 +7,20 @@
 # SwiftUI Exporter
 
 
-SwiftUI Exporter allows you to **produce production-ready code for all product styles (such as colors) defined inside your design system** in such format that you can immediately use them to style your application elements. Specifically, this exporter automates the coding of:
+The SwiftUI Exporter allows you to **produce production-ready code for all product styles (such as colors) defined inside your design system** in such a way that you can immediately use them to style your application elements. Specifically, this exporter automates the coding of:
 
 - [x] Color definitions
 - [x] Text Styles
 - [x] Gradients
 - [x] Shadows
-- [x] Border
+- [x] Borders
 
-You can generate all production ready-code either manually using Supernova [VSCode extension](https://marketplace.visualstudio.com/items?itemName=SupernovaIO.pulsar-vsc-extension), or automate the pipeline using Supernova [Design Continuous Delivery](https://supernova.io/automated-code-delivery).
+You can generate all production ready-code either manually using Supernova's [VS Code extension](https://marketplace.visualstudio.com/items?itemName=SupernovaIO.pulsar-vsc-extension), or automate your code delivery pipeline using Supernova [Design Continuous Delivery](https://supernova.io/automated-code-delivery).
 
 
 ## Example Usage
 
-Once you have run the exporter against your design system, you can start using the code in your codebase right away. Here are few examples how you can use the output of [SwiftUI] exporter:
+Once you have run the exporter against your design system, you can start using the code in your codebase right away. Here are a few examples of how you can use the output of the [SwiftUI] exporter:
 
 ### [Example 1]
 
@@ -43,21 +43,21 @@ Code
 
 In order to make the Supernova SwiftUI exporter available for your organization so you can start generating code from your design system, please follow the installation guide in our [developer documentation](https://developers.supernova.io/using-exporters/installing-exporters).
 
-## Reporting Bug or Requesting Feature
+## Reporting Bugs or Requesting Features
 
-In order to faciliate easy communication and speed up delivery of fixes and features, we require everyone to log all issues and feature requests through the issue tracking of this repository. 
+In order to faciliate easy communication and speed up delivery of fixes and features for this exporter, we require everyone to log all issues and feature requests through the issue tracking of this repository. 
 
 Please read through the [existing issues](../../issues) before you open a new issue! It might be that we have already discussed it before. If you are sure your request wasn't mentioned just yet, proceed to [open a new issue](../../issues) and fill in the required information. Thank you!
 
 ## Contributing
 
-If you have idea how to improve this exporter package or want to have some issue fixed quickly, we would love to see you contribute to its development! 
+If you have an idea for improving this exporter package or want a specific issue fixed quickly, we would love to see you contribute to its development! 
 
-There are multiple ways and places you can contribute, so we have written a [contribution guide](https://developers.supernova.io/building-exporters/contribution-and-requests) that will walk your through the process! Any pull requests to this repository are very welcome.
+There are multiple ways you can contribute, so we have written a [contribution guide](https://developers.supernova.io/building-exporters/contribution-and-requests) that will walk your through the process. Any pull requests to this repository are very welcome.
 
 ## License
 
-This exporter is distributed under [MIT license](./LICENSE.md). [We absolutely encourage you](https://developers.supernova.io/building-exporters/cloning-exporters) to clone it and modify it for your purposes, so it fits the requirements of your stack. If you see that you have created something amazing in the process that others would benefit from, we strongly recommend you consider [publishing it back to the community](https://developers.supernova.io/building-exporters/sharing-exporters-with-others) as well.
+This exporter is distributed under the [MIT license](./LICENSE.md). [We absolutely encourage you](https://developers.supernova.io/building-exporters/cloning-exporters) to clone it and modify it for your purposes, so it fits the requirements of your stack. If you see that you have created something amazing in the process that others would benefit from, we strongly recommend you consider [publishing it back to the community](https://developers.supernova.io/building-exporters/sharing-exporters-with-others) as well.
 
 ## Useful Links
 
