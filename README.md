@@ -24,16 +24,16 @@ Once you have run the exporter against your design system, you can start using t
 
 ### [Example 1]
 
-Todo description
+[Todo description]
 
 ```
-Code
+[Code]
 ```
 
 
 ### [Example 2]
 
-Todo description
+[Todo description]
 
 ```
 Code
@@ -47,7 +47,7 @@ In order to make the Supernova SwiftUI exporter available for your organization 
 
 In order to faciliate easy communication and speed up delivery of fixes and features, we require everyone to log all issues and feature requests through the issue tracking of this repository. 
 
-Please read through the [existing issues](./issues) before you open a new issue! It might be that we have already discussed it before. If you are sure your request wasn't mentioned just yet, proceed to [open a new issue](./issues) and fill in the required information. Thank you!
+Please read through the [existing issues](../../issues) before you open a new issue! It might be that we have already discussed it before. If you are sure your request wasn't mentioned just yet, proceed to [open a new issue](../../issues) and fill in the required information. Thank you!
 
 ## Contributing
 
@@ -57,7 +57,7 @@ There are multiple ways and places you can contribute, so we have written a [con
 
 ## License
 
-There is no licence associated with this exporter. If you need to, [we absolutely encourage you](https://developers.supernova.io/building-exporters/cloning-exporters) to clone it and modify it for your purposes, so it fits the requirements of your stack. If you see that you have created something amazing in the process that others would benefit from, we strongly recommend you consider [publishing it back to the community](https://developers.supernova.io/building-exporters/sharing-exporters-with-others).
+This exporter is distributed under [MIT licence](./LICENCE.md). [We absolutely encourage you](https://developers.supernova.io/building-exporters/cloning-exporters) to clone it and modify it for your purposes, so it fits the requirements of your stack. If you see that you have created something amazing in the process that others would benefit from, we strongly recommend you consider [publishing it back to the community](https://developers.supernova.io/building-exporters/sharing-exporters-with-others) as well.
 
 ## Useful Links
 
