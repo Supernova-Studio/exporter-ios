@@ -1,7 +1,7 @@
 <img src="./readme-icon.png" alt="Supernova Logo" style="max-width:100%;">
 
 
-[Supernova](https://supernova.io) is a design system platform that allows to seamlessly get your design system data represented as production-ready code. Supernova works with any platform or tech stack, is used by many developers and organizations around the world, and can help you save time doing manual and unneccessary tasks that all developers hate. To learn everything Supernova, please follow our [developer documentation](https://developers.supernova.io/).
+[Supernova](https://supernova.io) is a design system platform that allows you to seamlessly translate your design system data to production-ready code. Supernova works with any platform or tech stack, is used by many developers and organizations around the world, and can help you save time by replacing manual and repetitive tasks that all developers hate. To learn everything Supernova, please check out our [developer documentation](https://developers.supernova.io/).
 
 
 # SwiftUI Exporter
@@ -63,12 +63,12 @@ This exporter is distributed under [MIT license](./LICENSE.md). [We absolutely e
 
 - To learn more about Supernova, [go visit our website](https://supernova.io)
 - To join our community of fellow developers where we try to push what is possible with design systems and code automation, join our [community discord](https://community.supernova.io)
-- To understand what all you can do with Supernova and how much time and resources it can save you, go read our [product documentation](https://learn.supernova.io/)
-- Finally, to learn everything about what exporters are and how you can integrated with your codebase, go read our [developer documentation](https://developers.supernova.io/).
+- To understand everything you can do with Supernova and how much time and resources it can save you, go read our [product documentation](https://learn.supernova.io/)
+- Finally, to learn everything about what exporters are and how you can integrate with your codebase, go read our [developer documentation](https://developers.supernova.io/).
 
 ## Other Supernova Exporters
 
-We are developing and maintaining exporters for many major technologies. Following is the list of all official exporters maintained by Supernova:
+We are developing and maintaining exporters for many major technologies. Here are all the official exporters maintained by Supernova:
 
 - [iOS Exporter](https://github.com/Supernova-Studio/exporter-ios)
 - [iOS Localization Exporter](https://github.com/Supernova-Studio/exporter-ios-localization)
@@ -82,12 +82,12 @@ We are developing and maintaining exporters for many major technologies. Followi
 - [SASS Exporter](https://github.com/Supernova-Studio/exporter-sass)
 
 
-Additionally, we are also developing and maintaining exporters for specific usecases:
+Additionally, we are also developing and maintaining exporters for specific use cases:
 
 - [Style Dictionary Exporter](https://github.com/Supernova-Studio/exporter-style-dictionary)
 - [HTML Preview Exporter](https://github.com/Supernova-Studio/exporter-html-preview)
 
-To browse all exporters created by our amazing community, go visit [Supernova](https://supernova.io) Exporter Store.
+To browse all exporters created by our amazing community, please visit the [Supernova](https://supernova.io) Exporter Store.
 
 
 
