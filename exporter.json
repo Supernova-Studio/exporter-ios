@@ -1,14 +1,24 @@
 {
-    "id": "io.supernova.example-exporter",
-    "name": "Example Exporter",
-    "description": "Example exporter that can export basic colors from the targeted design system",
+    "id": "io.supernova.ios-swiftui",
+    "name": "iOS SwiftUI",
+    "description": "iOS SwiftUI token and style exporter",
     "source_dir": "src",
     "version": "1.0.0",
     "tags": [
-        "Flutter"
+        "iOS",
+        "SwiftUI",
+        "Tokens",
+        "Styles",
+        "Colors",
+        "Borders",
+        "Gradients",
+        "Measures",
+        "Typography",
+        "Radii"
     ],
-    "author": "Your name goes here",
-    "organization": "Your organization goes here",
+    "author": "Vaclav Lustek",
+    "organization": "Supernova",
+    "homepage": "https://supernova.io",
     "config": {
         "output": "output.json",
         "sources": "sources.json"
