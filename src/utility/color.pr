@@ -1,1 +1,1 @@
-Color(.sRGB, red: {{ r }}/255, green: {{ g }}/255, blue: {{ b }}/255, opacity: {{ a.dividedBy(255).rounded(2) }})
+Color(.sRGB, red: {{ context.r }}/255, green: {{ context.g }}/255, blue: {{ context.b }}/255, opacity: {{ context.a.dividedBy(255).rounded(2) }})

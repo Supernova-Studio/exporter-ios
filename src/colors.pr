@@ -11,10 +11,7 @@ extension Color {
         {[ if @boolean.not(@boolean.and(@compare.empty(group.tokenIds), @compare.empty(group.subgroups))) ]}
         // {{ group.name }}
         {[ for token in @ds.tokensByGroupId(group.id)]}
-        {* {[ inject "token_description" context token /]} *}
-        {[ if @boolean.not(@compare.empty(token.description)) ]}
-        // {{ token.description }}
-        {[/]}
+        {[ inject "token_description" context token /]}
         let {[ inject "token_name" context self /]} = {[ inject "color" context token.value /]} 
         {[/]}
 

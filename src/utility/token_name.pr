@@ -1,2 +1,2 @@
-{[ const groupName = group.path.join("").suffixed(group.name).camelcased(false) /]}
-{{ groupName }}{{ token.name.camelcased(@boolean.not(@compare.empty(groupName))) }}
+{[ const groupName = context.group.path.join("").suffixed(context.group.name).camelcased(false) /]}
+{{ groupName }}{{ context.token.name.camelcased(@boolean.not(@compare.empty(groupName))) }}
