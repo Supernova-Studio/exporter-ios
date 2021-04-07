@@ -6,15 +6,18 @@ extension Gradient {
     static let Token = Gradient.TokenGradient()
     
     struct TokenGradient {
-
         {[ for group in @ds.tokenGroupsOfType("Gradient") ]}
-        {[ if @boolean.not(@boolean.and(@compare.empty(group.tokenIds), @compare.empty(group.subgroups))) ]}
+        {[ const tokens = @ds.tokensByGroupId(group.id) /]}
+        {[ if @boolean.not(@boolean.and(@compare.empty(tokens), @compare.empty(group.subgroups))) ]}
+        {[ if @boolean.not(group.isRoot) ]}
+
         // {{ group.name }}
-        {[ for token in @ds.tokensByGroupId(group.id)]}
+        {[/]}
+        {[ for token in tokens ]}
+
         {[ if token.value.type == "Linear" ]}
-        {* {[ inject "token_description" context token /]} *}
         {[ if @boolean.not(@compare.empty(token.description)) ]}
-        // {{ token.description }}
+        {{ @js.createDocumentationComment(token.description, "        ") }}
         {[/]}
         let {[ inject "token_name" context self /]} = LinearGradient(
             gradient: Gradient(stops: [
@@ -27,7 +30,6 @@ extension Gradient {
         )
         {[/]}
         {[/]}
-
         {[/]}
         {[/]}
     }

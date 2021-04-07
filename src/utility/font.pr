@@ -1,1 +1,1 @@
-Font.custom("{{ font.family }}{{ font.subfamily }}", size: {{ fontSize.measure }})
+Font.custom("{{ context.font.family }}{{ context.font.subfamily }}", size: {{ context.fontSize.measure }})

@@ -8,8 +8,10 @@ extension Color {
     struct TokenColor {
         {[ for group in @ds.tokenGroupsOfType("Color") ]}
         {[ if @boolean.not(@boolean.and(@compare.empty(group.tokenIds), @compare.empty(group.subgroups))) ]}
+        {[ if @boolean.not(group.isRoot) ]}
 
         // {{ group.name }}
+        {[/]}
         {[ const tokens = @ds.tokensByGroupId(group.id) /]}
         {[ if @boolean.and(@boolean.not(@compare.empty(group.tokenIds)), @compare.empty(tokens.first().description)) ]}
 
