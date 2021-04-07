@@ -1,2 +1,2 @@
-{[ const groupName = group.path.join("").suffixed(group.name).camelcased(true) /]}
-{{ groupName }}{{ token.name.camelcased(true) }}
+{[ const groupName = context.group.path.join("").suffixed(context.group.name).camelcased(true) /]}
+{{ groupName }}{{ context.token.name.camelcased(true) }}

@@ -1,10 +1,3 @@
 {[ if @boolean.not(@compare.empty(context.description)) ]}
-{[ const lines = context.description.split("\n") /]}
-{[ if @boolean.not(@compare.empty(lines)) ]}
-
-{[/]}
-{[ for line in lines ]}
-/// {{ line }}
-
-{[/]}
+{{ @js.createDocumentationComment(context.description, "    ") }}
 {[/]}

@@ -8,7 +8,8 @@ extension View {
     // {{ group.name }}
     {[ for token in @ds.tokensByGroupId(group.id)]}
     {[ if @boolean.not(@compare.empty(token.description)) ]}
-    // {{ token.description }}
+
+    {{ @js.createDocumentationComment(token.description, "        ") }}
     {[/]}
     func border{[ inject "token_func_name" context self /]}() -> some View {
         return self.border({[ inject "color" context token.value.color /]}, width: {{ token.value.width.measure }}) 
