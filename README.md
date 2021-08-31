@@ -46,7 +46,7 @@ import SwiftUI
 extension Text {
 
     func textStyleUi11Regular() -> some View {
-    return self
+    return this
         .font(Font.custom("PoppinsRegular", size: 11) 
         .underline() 
         .textCase(.uppercase) 

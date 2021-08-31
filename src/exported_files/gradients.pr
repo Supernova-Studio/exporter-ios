@@ -6,20 +6,20 @@ extension Gradient {
     static let Token = Gradient.TokenGradient()
     
     struct TokenGradient {
-        {[ for group in @ds.tokenGroupsOfType("Gradient") ]}
-        {[ const tokens = @ds.tokensByGroupId(group.id) /]}
-        {[ if @boolean.not(@boolean.and(@compare.empty(tokens), @compare.empty(group.subgroups))) ]}
-        {[ if @boolean.not(group.isRoot) ]}
+        {[ for group in ds.tokenGroupsOfType("Gradient") ]}
+        {[ const tokens = ds.tokensByGroupId(group.id) /]}
+        {[ if !(tokens.count() === 0 && group.subgroups.count() === 0) ]}
+        {[ if !group.isRoot ]}
 
         // {{ group.name }}
         {[/]}
         {[ for token in tokens ]}
 
-        {[ if token.value.type == "Linear" ]}
-        {[ if @boolean.not(@compare.empty(token.description)) ]}
-        {{ @js.createDocumentationComment(token.description, "        ") }}
+        {[ if (token.value.type == "Linear") ]}
+        {[ if (token.description && token.description.count() > 0) ]}
+        {{ createDocumentationComment(token.description, "        ") }}
         {[/]}
-        let {[ inject "token_name" context self /]} = LinearGradient(
+        let {[ inject "token_name" context this /]} = LinearGradient(
             gradient: Gradient(stops: [
                 {[ for stop in token.value.stops ]}
                 Gradient.Stop(color: {[ inject "color" context stop.color /]}, location: {{ stop.position }}),
