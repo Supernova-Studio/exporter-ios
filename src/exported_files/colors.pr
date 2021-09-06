@@ -6,22 +6,22 @@ extension Color {
     static let Token = Color.TokenColor()
     
     struct TokenColor {
-        {[ for group in @ds.tokenGroupsOfType("Color") ]}
-        {[ if @boolean.not(@boolean.and(@compare.empty(group.tokenIds), @compare.empty(group.subgroups))) ]}
-        {[ if @boolean.not(group.isRoot) ]}
+        {[ for group in ds.tokenGroupsOfType("Color") ]}
+        {[ if !(group.tokenIds.count() === 0 && group.subgroups.count() === 0) ]}
+        {[ if !group.isRoot ]}
 
         // {{ group.name }}
         {[/]}
-        {[ const tokens = @ds.tokensByGroupId(group.id) /]}
-        {[ if @boolean.and(@boolean.not(@compare.empty(group.tokenIds)), @compare.empty(tokens.first().description)) ]}
+        {[ const tokens = ds.tokensByGroupId(group.id) /]}
+        {[ if (group.tokenIds.count() !== 0 && (tokens.first() && tokens.first().description === 0)) ]}
 
         {[/]}
         {[ for token in tokens ]}
-        {[ if @boolean.not(@compare.empty(token.description)) ]}
+        {[ if (token.description && token.description.count() !== 0) ]}
 
-        {{ @js.createDocumentationComment(token.description, "        ") }}
+        {{ createDocumentationComment(token.description, "        ") }}
         {[/]}
-        let {[ inject "token_name" context self /]} = {[ inject "color" context token.value /]} 
+        let {[ inject "token_name" context this /]} = {[ inject "color" context token.value /]} 
         {[/]}
         {[/]}
         {[/]}
