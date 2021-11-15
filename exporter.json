@@ -4,6 +4,7 @@
     "description": "iOS SwiftUI token and style exporter",
     "source_dir": "src",
     "version": "1.1",
+    "usesBrands": true,
     "tags": [
         "iOS",
         "SwiftUI",
