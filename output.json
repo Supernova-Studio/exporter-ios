@@ -1,6 +1,5 @@
 {
-    "blueprints": [
-        {
+    "blueprints": [{
             "invoke": "borders.pr",
             "write_to": "Styles/BorderExtension.swift"
         },

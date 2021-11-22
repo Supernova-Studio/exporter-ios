@@ -6,7 +6,8 @@ extension Color {
     static let Token = Color.TokenColor()
     
     struct TokenColor {
-        {[ for group in ds.tokenGroupsOfType("Color") ]}
+        {[ let brand = ds.currentBrand() /]}
+        {[ for group in ds.tokenGroupsOfType("Color", brand.id) ]}
         {[ if !(group.tokenIds.count() === 0 && group.subgroups.count() === 0) ]}
         {[ if !group.isRoot ]}
 
