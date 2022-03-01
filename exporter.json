@@ -3,7 +3,7 @@
     "name": "iOS SwiftUI",
     "description": "iOS SwiftUI token and style exporter",
     "source_dir": "src",
-    "version": "1.2",
+    "version": "1.2.1",
     "usesBrands": true,
     "tags": [
         "iOS",

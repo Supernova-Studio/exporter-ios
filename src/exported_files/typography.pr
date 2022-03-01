@@ -17,7 +17,7 @@ extension Text {
     {[/]}
     func textStyle{[ inject "token_func_name" context this /]}() -> some View {
         return self
-            .font({[ inject "font" context token.value /]} 
+            .font({[ inject "font" context token.value /]})
             {[ const leterSpacing = token.value.leterSpacing /]}
             {[ if letterSpacing ]}
             .kerning({{ letterSpacing.measure }}) 
