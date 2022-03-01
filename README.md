@@ -44,7 +44,7 @@ extension Text {
 
     func textStyleUi11Regular() -> some View {
     return this
-        .font(Font.custom("PoppinsRegular", size: 11) 
+        .font(Font.custom("PoppinsRegular", size: 11))
         .underline() 
         .textCase(.uppercase) 
     }
