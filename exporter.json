@@ -1,9 +1,9 @@
 {
     "id": "io.supernova.ios-swiftui",
-    "name": "iOS SwiftUI",
-    "description": "iOS SwiftUI token and style exporter",
+    "name": "iOS SwiftUI - Public Package",
+    "description": "iOS SwiftUI token and style exporter with public access scope",
     "source_dir": "src",
-    "version": "1.2.2",
+    "version": "1.3.0",
     "usesBrands": true,
     "tags": [
         "iOS",
@@ -17,7 +17,7 @@
         "Typography",
         "Radii"
     ],
-    "author": "Vaclav Lustek",
+    "author": "Vaclav Lustek & Jiri Trecak",
     "organization": "Supernova",
     "homepage": "https://supernova.io",
     "config": {

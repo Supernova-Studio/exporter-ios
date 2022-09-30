@@ -21,7 +21,7 @@ For color, gradient and measure tokens, the exporter will generate extensions th
 ```
 import SwiftUI
 
-extension Color {
+public extension Color {
     
     static let Token = Color.TokenColor()
     
@@ -40,7 +40,7 @@ For borders, shadows, radii and text styles, the exporter will generate extensio
 ```
 import SwiftUI
 
-extension Text {
+public extension Text {
 
     func textStyleUi11Regular() -> some View {
     return this
