@@ -1,31 +1,36 @@
 {
-    "blueprints": [{
-            "invoke": "borders.pr",
-            "write_to": "Styles/BorderExtension.swift"
-        },
-        {
-            "invoke": "colors.pr",
-            "write_to": "Styles/ColorExtension.swift"
-        },
-        {
-            "invoke": "gradients.pr",
-            "write_to": "Styles/GradientExtension.swift"
-        },
-        {
-            "invoke": "measures.pr",
-            "write_to": "Styles/AppMeasures.swift"
-        },
-        {
-            "invoke": "radius.pr",
-            "write_to": "Styles/RadiusExtension.swift"
-        },
-        {
-            "invoke": "shadows.pr",
-            "write_to": "Styles/ShadowExtension.swift"
-        },
-        {
-            "invoke": "typography.pr",
-            "write_to": "Styles/FontExtension.swift"
-        }
-    ]
+  "blueprints": [
+    {
+      "invoke": "borders.pr",
+      "write_to": "Styles/SwiftUI/BorderExtension.swift"
+    },
+    {
+      "invoke": "colors.pr",
+      "write_to": "Styles/SwiftUI/ColorExtension.swift"
+    },
+    {
+      "invoke": "gradients.pr",
+      "write_to": "Styles/SwiftUI/GradientExtension.swift"
+    },
+    {
+      "invoke": "measures.pr",
+      "write_to": "Styles/SwiftUI/AppMeasures.swift"
+    },
+    {
+      "invoke": "radius.pr",
+      "write_to": "Styles/SwiftUI/RadiusExtension.swift"
+    },
+    {
+      "invoke": "shadows.pr",
+      "write_to": "Styles/SwiftUI/ShadowExtension.swift"
+    },
+    {
+      "invoke": "typography.pr",
+      "write_to": "Styles/SwiftUI/FontExtension.swift"
+    },
+    {
+      "invoke": "ui_colors.pr",
+      "write_to": "Styles/UIKit/UIColorExtension.swift"
+    }
+  ]
 }
