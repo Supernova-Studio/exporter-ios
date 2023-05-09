@@ -15,7 +15,7 @@ public extension Text {
     {[ if (token.description && token.description.count() > 0) ]}
     {{ createDocumentationComment(token.description, "    ") }}
     {[/]}
-    public func textStyle{[ inject "token_func_name" context this /]}() -> some View {
+    func textStyle{[ inject "token_func_name" context this /]}() -> some View {
         return self
             .font({[ inject "font" context token.value /]})
             {[ const leterSpacing = token.value.leterSpacing /]}

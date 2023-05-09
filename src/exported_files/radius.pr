@@ -15,7 +15,7 @@ public extension View {
     {[ if (token.description && token.description.count() > 0) ]}
     {{ createDocumentationComment(token.description, "    ") }}
     {[/]}
-    public func border{[ inject "token_func_name" context this /]}() -> some View {
+    func border{[ inject "token_func_name" context this /]}() -> some View {
         return self.cornerRadius({{ token.value.radius.measure }}) 
     }
     {[/]}

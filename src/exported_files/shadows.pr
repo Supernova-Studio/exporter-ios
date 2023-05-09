@@ -15,7 +15,7 @@ public extension View {
     {[ if (token.description && token.description.count() > 0) ]}
     {{ createDocumentationComment(token.description, "    ") }}
     {[/]}
-    public func shadow{[ inject "token_func_name" context this /]}() -> some View {
+    func shadow{[ inject "token_func_name" context this /]}() -> some View {
         return self.shadow(color: {[ inject "color" context token.value.color /]}, radius: {{ token.value.radius.measure }}, x: {{ token.value.x.measure }}, y: {{ token.value.y.measure }}) 
     }
     {[/]}
