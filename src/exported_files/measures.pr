@@ -9,6 +9,7 @@ public struct AppMeasures {
     {[ if !group.isRoot ]}
 
     // {{ group.name }}
+
     {[/]}
     {[ if (group.tokenIds.count() !== 0 && (tokens.first() && tokens.first().description === 0)) ]}
 
@@ -17,6 +18,7 @@ public struct AppMeasures {
     {[ if (token.description && token.description.count() > 0) ]}
 
     {{ createDocumentationComment(token.description, "    ") }}
+    
     {[/]}
     public static let {[ inject "token_name" context this /]} = {{ token.value.measure }} 
     {[/]}

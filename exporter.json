@@ -1,32 +1,32 @@
 {
-    "id": "io.supernova.ios-swiftui",
-    "name": "iOS SwiftUI",
-    "description": "iOS SwiftUI token and style exporter",
-    "source_dir": "src",
-    "version": "1.2.4",
-    "usesBrands": true,
-    "tags": [
-        "iOS",
-        "SwiftUI",
-        "Tokens",
-        "Styles",
-        "Colors",
-        "Borders",
-        "Gradients",
-        "Measures",
-        "Typography",
-        "Radii"
-    ],
-    "author": "Vaclav Lustek",
-    "organization": "Supernova",
-    "homepage": "https://supernova.io",
-    "config": {
-        "output": "output.json",
-        "sources": "sources.json",
-        "js": "src/functions.js"
-    },
-    "engines": {
-        "pulsar": "1.0.0",
-        "supernova": "1.0.0"
-    }
+  "id": "io.supernova.ios-swiftui",
+  "name": "iOS SwiftUI",
+  "description": "iOS SwiftUI token and style exporter",
+  "source_dir": "src",
+  "version": "2.0.0",
+  "usesBrands": true,
+  "tags": [
+    "iOS",
+    "SwiftUI",
+    "Tokens",
+    "Styles",
+    "Colors",
+    "Borders",
+    "Gradients",
+    "Measures",
+    "Typography",
+    "Radii"
+  ],
+  "author": "Vaclav Lustek",
+  "organization": "Supernova",
+  "homepage": "https://supernova.io",
+  "config": {
+    "output": "output.json",
+    "sources": "sources.json",
+    "js": "src/functions.js"
+  },
+  "engines": {
+    "pulsar": "1.0.0",
+    "supernova": "1.0.0"
+  }
 }
