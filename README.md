@@ -21,7 +21,7 @@ For color, gradient and measure tokens, the exporter will generate structs that 
 ```
 import SwiftUI
 
-public struct TokenColor {
+public struct ColorToken {
 
     public static let primary = Color(.sRGB, red: 69/255, green: 137/255, blue: 255/255, opacity: 1)
     public static let success = Color(.sRGB, red: 0/255, green: 164/255, blue: 84/255, opacity: 1)
