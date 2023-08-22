@@ -17,7 +17,6 @@ import SwiftUI
 {{ createDocumentationComment(token.description, "    ") }}
 
 {[/]}
-
 public struct TextStyle{[ inject "token_func_name" context this /]}: ViewModifier {
     public init() {}
 
