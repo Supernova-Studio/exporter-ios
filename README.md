@@ -16,7 +16,7 @@ The SwiftUI Exporter allows you to **produce production-ready code for all produ
 
 You can generate all production ready-code either manually using Supernova's [VS Code extension](https://marketplace.visualstudio.com/items?itemName=SupernovaIO.pulsar-vsc-extension), or automate your code delivery pipeline using Supernova [Design Continuous Delivery](https://supernova.io/automated-code-delivery).
 
-For color, gradient and measure tokens, the exporter will generate structs that expose all tokens through `ColorToken.tokenName`, `GradientToken.tokenName` or `AppMeasures.tokenName`.
+For color, gradient and measure tokens, the exporter will generate structs that expose all tokens through `ColorToken.tokenName`, `GradientToken.tokenName` or `MeasureToken.tokenName`.
 
 ```
 import SwiftUI
