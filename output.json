@@ -9,6 +9,10 @@
       "write_to": "Styles/Colors.swift"
     },
     {
+      "invoke": "colorsThemeable.pr",
+      "write_to": "Styles/ColorsThemeable.swift"
+    },
+    {
       "invoke": "gradients.pr",
       "write_to": "Styles/Gradients.swift"
     },
